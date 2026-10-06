@@ -1,6 +1,11 @@
 import ee from "@google/earthengine";
 
-const credentials = require("../../earth-engine-key.json");
+import {
+  getEarthEngineCredentials,
+} from "./earthEngineRest";
+
+const credentials =
+  getEarthEngineCredentials();
 
 export function initializeEarthEngine(): Promise<void> {
   return new Promise((resolve, reject) => {

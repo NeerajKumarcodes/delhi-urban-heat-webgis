@@ -1,7 +1,11 @@
 import { NextResponse } from "next/server";
 import ee from "@google/earthengine";
+import {
+  getEarthEngineCredentials,
+} from "@/lib/earthEngineRest";
 
-const credentials = require("../../../../../earth-engine-key.json");
+const credentials =
+  getEarthEngineCredentials();
 
 export async function GET() {
   try {
