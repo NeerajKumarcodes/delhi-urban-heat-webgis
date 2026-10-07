@@ -10,6 +10,13 @@ The application integrates **Sentinel-2 NDVI** and **Landsat 8 Land Surface Temp
   </a>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Google%20Earth%20Engine-4285F4?style=for-the-badge&logo=googleearth&logoColor=white" alt="GEE" />
+  <img src="https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet" />
+  <img src="https://img.shields.io/badge/License-MIT-green.style=for-the-badge" alt="License" />
+</p>
 ---
 
 ## 🌐 Live Demo
